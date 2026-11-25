@@ -2,6 +2,27 @@
 
 An AI-powered local LaTeX desktop editor laid out like Overleaf with a geometric drafting design aesthetic. It features a file tree, highlighted code editor, live PDF preview with Recompile, logs view, and built-in AI Assist (Claude, Gemini, or local Ollama models) to fix compile errors and rewrite sections.
 
+![inkTeX editor: LaTeX code with live PDF preview](docs/screenshots/editor.png)
+
+![inkTeX home: projects in tiles or list view, sorted like Windows Explorer](docs/screenshots/home.png)
+
+## Why inkTeX instead of Overleaf?
+
+| | inkTeX | Overleaf (free plan) |
+|---|---|---|
+| **Works offline** | Yes, everything runs on your PC | No, needs internet |
+| **Compile time limit** | None, big theses compile fully | Short timeout on large projects |
+| **Collaborators / projects** | No limits | Limited collaborators per project |
+| **Your files** | Plain folders on your disk, use Git or any tool | Stored on Overleaf's servers |
+| **AI help** | Built in: Claude, Gemini, or free local Ollama models fix errors and rewrite text, shown as a diff you accept | Paid add-on |
+| **Install LaTeX?** | No, Tectonic downloads itself and fetches packages on demand | No |
+| **Privacy** | Papers never leave your PC (unless you turn on Drive sync) | Uploaded to the cloud |
+| **Extras** | Google Drive sync, Overleaf ZIP import, PDF history, neural-network diagram builder, one-click resume | Templates gallery |
+| **Speed** | Native Rust app, instant typing and PDF view | Browser-based |
+| **Cost** | Free and open source (GPL-3.0) | Free tier, paid plans for more |
+
+Overleaf is still the better pick for real-time co-editing in the browser with people who don't install anything.
+
 ## Build (once)
 Needs Rust and the Visual Studio C++ Build Tools.
 ```
