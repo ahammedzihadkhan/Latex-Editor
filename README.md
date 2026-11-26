@@ -30,7 +30,7 @@ cargo build --release
 ```
 The program is `target/release/inktex.exe`, a single, self-contained desktop app with the UI and logo embedded.
 
-Made by **Ahammed Zihad Khan** · [github.com/ahammedzihadkhan](https://github.com/ahammedzihadkhan)
+
 
 ## Run
 ```
